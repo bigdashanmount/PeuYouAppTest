@@ -1,0 +1,1 @@
+INFO     setUpClass开启：2020-07-14 20:51:40.800836:Test_Login.py:16 setUpClass开启...初始化Appium

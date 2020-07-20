@@ -1,0 +1,21 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcase.TestKeywords",
+    "children" : [ {
+      "name" : "Case_001-登录成功01",
+      "uid" : "250675e0e33692f6",
+      "parentUid" : "1bb5cafdc86a8222adeccc6a41d2c090",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595068256686,
+        "stop" : 1595068265292,
+        "duration" : 8606
+      },
+      "flaky" : true,
+      "parameters" : [ "{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}" ]
+    } ],
+    "uid" : "testcase.TestKeywords"
+  } ]
+}

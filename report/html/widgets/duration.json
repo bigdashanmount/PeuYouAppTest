@@ -1,0 +1,11 @@
+[ {
+  "uid" : "250675e0e33692f6",
+  "name" : "Case_001-登录成功01",
+  "time" : {
+    "start" : 1595068256686,
+    "stop" : 1595068265292,
+    "duration" : 8606
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

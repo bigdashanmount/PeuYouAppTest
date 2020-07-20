@@ -1,0 +1,4 @@
+INFO     start_appium:StartAppium.py:87 获取的devices信息udid:['127.0.0.1:62001', '127.0.0.1:62025']
+INFO     start_appium:StartAppium.py:17 端口检查：  port 4725 is used!
+INFO     start_appium:StartAppium.py:17 端口检查：  port 4723 is used!
+INFO     desired_caps:DesireCaps.py:40 8201

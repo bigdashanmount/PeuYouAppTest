@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-JLLEQ2S",
+    "children" : [ {
+      "name" : "6656-MainThread",
+      "children" : [ {
+        "name" : "Case_001-登录成功01",
+        "uid" : "250675e0e33692f6",
+        "parentUid" : "937c2e7a4cfd04f60d0e07404f87b8bb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595068256686,
+          "stop" : 1595068265292,
+          "duration" : 8606
+        },
+        "flaky" : true,
+        "parameters" : [ "{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}" ]
+      } ],
+      "uid" : "937c2e7a4cfd04f60d0e07404f87b8bb"
+    } ],
+    "uid" : "c375b88492ee068a01e06d8a77c07e9e"
+  } ]
+}

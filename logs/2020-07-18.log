@@ -1,0 +1,830 @@
+2020-07-18 11:22:33,226 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 11:22:33,230 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 11:22:33,235 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 11:22:33,238 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 11:22:33,295 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 11:22:35,298 - start_appium - INFO - port 4723 is not used
+2020-07-18 11:22:40,298 - start_appium - INFO - 启动cmd： appium -a 127.0.0.1 -p 4723 -bp 4724 -U 127.0.0.1:62001 --session-override
+2020-07-18 11:22:45,306 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 11:22:46,307 - desired_caps - INFO - 8200
+2020-07-18 11:22:57,553 - desired_caps - INFO - 连接appium服务器成功！！！！
+2020-07-18 11:23:01,570 - TestKeywords - INFO - 执行用例内容:{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}
+2020-07-18 11:23:03,595 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 11:23:03,638 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 11:23:04,768 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 11:23:06,353 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 11:23:06,941 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 11:23:08,024 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 11:23:08,577 - operate开始执行 - DEBUG - 该关键字是assert_toast_result
+2020-07-18 11:23:10,062 - Base_Page - INFO - 获取toast内容为：登录成功!
+2020-07-18 11:23:10,062 - Base_Page - INFO - toast_result结果为：True
+2020-07-18 11:23:15,179 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\result
+2020-07-18 11:23:18,084 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\html
+2020-07-18 11:28:29,517 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 11:28:29,520 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 11:28:29,525 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 11:28:29,529 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 11:28:29,591 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 11:28:29,592 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 11:28:34,592 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 11:28:38,001 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 11:28:38,006 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 11:28:38,009 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 11:28:38,013 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 11:28:38,070 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 11:28:38,071 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 11:28:43,071 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 11:28:44,073 - desired_caps - INFO - 8200
+2020-07-18 11:28:50,480 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\result
+2020-07-18 11:28:53,457 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\html
+2020-07-18 11:28:56,911 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 11:28:56,916 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 11:28:56,920 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 11:28:56,924 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 11:28:56,980 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 11:28:58,987 - start_appium - INFO - port 4723 is not used
+2020-07-18 11:29:03,988 - start_appium - INFO - 启动cmd： appium -a 127.0.0.1 -p 4723 -bp 4724 -U 127.0.0.1:62001 --session-override
+2020-07-18 11:29:08,999 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 11:29:10,000 - desired_caps - INFO - 8200
+2020-07-18 11:29:19,096 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\result
+2020-07-18 11:29:22,135 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\html
+2020-07-18 11:30:17,383 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 11:30:17,387 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 11:30:17,392 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 11:30:17,396 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 11:30:17,452 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 11:30:17,453 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 11:30:22,453 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 11:30:23,455 - desired_caps - INFO - 8200
+2020-07-18 11:30:29,864 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\result
+2020-07-18 11:31:11,503 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 11:31:11,507 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 11:31:11,513 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 11:31:11,517 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 11:31:11,575 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 11:31:13,578 - start_appium - INFO - port 4723 is not used
+2020-07-18 11:31:18,579 - start_appium - INFO - 启动cmd： appium -a 127.0.0.1 -p 4723 -bp 4724 -U 127.0.0.1:62001 --session-override
+2020-07-18 11:31:23,588 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 11:31:24,590 - desired_caps - INFO - 8200
+2020-07-18 11:31:36,178 - desired_caps - INFO - 连接appium服务器成功！！！！
+2020-07-18 11:31:41,013 - TestKeywords - INFO - 执行用例内容:{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}
+2020-07-18 11:31:43,037 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 11:31:44,180 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 11:31:44,242 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 11:31:45,830 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 11:31:46,406 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 11:31:47,853 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 11:31:48,396 - operate开始执行 - DEBUG - 该关键字是assert_toast_result
+2020-07-18 11:31:50,696 - Base_Page - INFO - 获取toast内容为：登录成功!
+2020-07-18 11:31:50,696 - Base_Page - INFO - toast_result结果为：True
+2020-07-18 11:31:55,871 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\result
+2020-07-18 11:33:23,977 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 11:33:23,989 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 11:33:24,002 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 11:33:24,014 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 11:33:24,080 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 11:33:26,088 - start_appium - INFO - port 4723 is not used
+2020-07-18 11:33:31,089 - start_appium - INFO - 启动cmd： appium -a 127.0.0.1 -p 4723 -bp 4724 -U 127.0.0.1:62001 --session-override
+2020-07-18 11:33:36,097 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 11:33:37,099 - desired_caps - INFO - 8200
+2020-07-18 11:33:48,418 - desired_caps - INFO - 连接appium服务器成功！！！！
+2020-07-18 11:34:08,811 - TestKeywords - INFO - 执行用例内容:{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}
+2020-07-18 11:34:15,398 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 11:34:15,456 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 11:34:16,636 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 11:34:18,241 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 11:34:18,790 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 11:34:19,893 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 11:34:20,438 - operate开始执行 - DEBUG - 该关键字是assert_toast_result
+2020-07-18 11:34:21,867 - Base_Page - INFO - 获取toast内容为：登录成功!
+2020-07-18 11:34:21,867 - Base_Page - INFO - toast_result结果为：True
+2020-07-18 11:38:23,544 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 11:38:23,557 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 11:38:23,571 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 11:38:23,585 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 11:38:23,660 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 11:38:25,663 - start_appium - INFO - port 4723 is not used
+2020-07-18 11:38:30,665 - start_appium - INFO - 启动cmd： appium -a 127.0.0.1 -p 4723 -bp 4724 -U 127.0.0.1:62001 --session-override
+2020-07-18 11:38:35,673 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 11:38:36,674 - desired_caps - INFO - 8200
+2020-07-18 11:38:48,046 - desired_caps - INFO - 连接appium服务器成功！！！！
+2020-07-18 11:40:46,172 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 11:40:46,176 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 11:40:46,182 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 11:40:46,187 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 11:40:46,243 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 11:40:48,249 - start_appium - INFO - port 4723 is not used
+2020-07-18 11:40:53,251 - start_appium - INFO - 启动cmd： appium -a 127.0.0.1 -p 4723 -bp 4724 -U 127.0.0.1:62001 --session-override
+2020-07-18 11:40:58,261 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 11:40:59,262 - desired_caps - INFO - 8200
+2020-07-18 11:41:11,994 - desired_caps - INFO - 连接appium服务器成功！！！！
+2020-07-18 11:41:16,949 - TestKeywords - INFO - 执行用例内容:{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}
+2020-07-18 11:41:18,971 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 11:41:20,127 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 11:41:20,201 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 11:41:21,794 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 11:41:22,390 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 11:41:23,472 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 11:41:24,027 - operate开始执行 - DEBUG - 该关键字是assert_toast_result
+2020-07-18 11:41:25,517 - Base_Page - INFO - 获取toast内容为：登录成功!
+2020-07-18 11:41:25,517 - Base_Page - INFO - toast_result结果为：True
+2020-07-18 11:41:30,617 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\result
+2020-07-18 11:41:34,384 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\html
+2020-07-18 12:09:01,965 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 12:09:01,969 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 12:09:01,974 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 12:09:01,977 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 12:09:02,046 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 12:09:02,047 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 12:09:07,047 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 12:09:08,048 - desired_caps - INFO - 8200
+2020-07-18 12:09:14,601 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\result
+2020-07-18 12:09:17,829 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\html
+2020-07-18 12:10:39,889 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 12:10:39,893 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 12:10:39,898 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 12:10:39,902 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 12:10:39,964 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 12:10:41,971 - start_appium - INFO - port 4723 is not used
+2020-07-18 12:10:46,972 - start_appium - INFO - 启动cmd： appium -a 127.0.0.1 -p 4723 -bp 4724 -U 127.0.0.1:62001 --session-override
+2020-07-18 12:10:51,983 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 12:10:52,985 - desired_caps - INFO - 8200
+2020-07-18 12:11:08,017 - desired_caps - INFO - 连接appium服务器成功！！！！
+2020-07-18 12:11:18,838 - TestKeywords - INFO - 执行用例内容:{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}
+2020-07-18 12:11:20,858 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 12:11:20,962 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 12:11:22,070 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 12:11:23,653 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 12:11:24,256 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 12:11:25,378 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 12:11:25,968 - operate开始执行 - DEBUG - 该关键字是assert_toast_result
+2020-07-18 12:11:27,625 - Base_Page - INFO - 获取toast内容为：登录成功!
+2020-07-18 12:11:27,625 - Base_Page - INFO - toast_result结果为：True
+2020-07-18 12:11:32,728 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\result
+2020-07-18 12:11:37,060 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\html
+2020-07-18 12:12:51,367 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 12:12:51,371 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 12:12:51,376 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 12:12:51,380 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 12:12:51,440 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 12:12:51,441 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 12:12:56,441 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 12:12:57,442 - desired_caps - INFO - 8200
+2020-07-18 12:13:03,858 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\result
+2020-07-18 12:13:06,833 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\html
+2020-07-18 12:13:13,811 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 12:13:13,814 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 12:13:13,819 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 12:13:13,824 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 12:13:13,880 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 12:13:15,887 - start_appium - INFO - port 4723 is not used
+2020-07-18 12:13:20,888 - start_appium - INFO - 启动cmd： appium -a 127.0.0.1 -p 4723 -bp 4724 -U 127.0.0.1:62001 --session-override
+2020-07-18 12:13:25,896 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 12:13:26,898 - desired_caps - INFO - 8200
+2020-07-18 12:13:40,045 - desired_caps - INFO - 连接appium服务器成功！！！！
+2020-07-18 12:13:47,994 - TestKeywords - INFO - 执行用例内容:{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}
+2020-07-18 12:13:50,021 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 12:13:50,090 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 12:13:51,227 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 12:13:52,829 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 12:13:53,379 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 12:13:54,459 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 12:13:55,028 - operate开始执行 - DEBUG - 该关键字是assert_toast_result
+2020-07-18 12:13:56,645 - Base_Page - INFO - 获取toast内容为：登录成功!
+2020-07-18 12:13:56,645 - Base_Page - INFO - toast_result结果为：True
+2020-07-18 12:14:01,795 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\result
+2020-07-18 12:14:06,049 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\html
+2020-07-18 14:20:33,420 - desired_caps - INFO - 8200
+2020-07-18 14:20:44,815 - desired_caps - INFO - 连接appium服务器成功！！！！
+2020-07-18 14:20:44,837 - 这是日志啊1 - INFO - 11111111111111111111111111111111111111111111111111
+2020-07-18 14:21:04,962 - desired_caps - INFO - 8200
+2020-07-18 14:21:17,754 - desired_caps - INFO - 连接appium服务器成功！！！！
+2020-07-18 14:21:17,772 - 这是日志啊1 - INFO - 11111111111111111111111111111111111111111111111111
+2020-07-18 14:21:33,171 - desired_caps - INFO - 8200
+2020-07-18 14:21:46,718 - desired_caps - INFO - 连接appium服务器成功！！！！
+2020-07-18 14:21:46,731 - 这是日志啊1 - INFO - 11111111111111111111111111111111111111111111111111
+2020-07-18 14:28:33,849 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 14:28:33,858 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 14:28:33,869 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 14:28:33,883 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 14:28:34,130 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 14:28:34,132 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 14:28:39,133 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 14:28:40,134 - desired_caps - INFO - 8200
+2020-07-18 14:29:00,087 - desired_caps - INFO - 连接appium服务器成功！！！！
+2020-07-18 14:29:07,624 - TestKeywords - INFO - 执行用例内容:{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}
+2020-07-18 14:29:09,690 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 14:29:10,895 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 14:29:10,953 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 14:29:12,565 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 14:29:13,134 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 14:29:14,217 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 14:29:14,776 - operate开始执行 - DEBUG - 该关键字是assert_toast_result
+2020-07-18 14:29:16,424 - Base_Page - INFO - 获取toast内容为：登录成功!
+2020-07-18 14:29:16,424 - Base_Page - INFO - toast_result结果为：True
+2020-07-18 14:29:22,214 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\result
+2020-07-18 14:29:36,469 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\html
+2020-07-18 14:30:04,192 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 14:30:04,219 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 14:30:04,248 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 14:30:04,277 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 14:30:04,436 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 14:30:04,437 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 14:30:09,440 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 14:30:10,445 - desired_caps - INFO - 8200
+2020-07-18 14:30:28,090 - desired_caps - INFO - 连接appium服务器成功！！！！
+2020-07-18 14:30:48,879 - TestKeywords - INFO - 执行用例内容:{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}
+2020-07-18 14:30:50,950 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 14:30:51,015 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 14:30:52,244 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 14:30:53,839 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 14:30:54,390 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 14:30:55,471 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 14:30:56,034 - operate开始执行 - DEBUG - 该关键字是assert_toast_result
+2020-07-18 14:30:57,498 - Base_Page - INFO - 获取toast内容为：登录成功!
+2020-07-18 14:30:57,499 - Base_Page - INFO - toast_result结果为：True
+2020-07-18 14:31:10,092 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 14:31:10,095 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 14:31:10,100 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 14:31:10,104 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 14:31:10,163 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 14:31:10,165 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 14:31:19,975 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 14:31:19,995 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 14:31:20,018 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 14:31:20,038 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 14:31:20,150 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 14:31:20,151 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 14:31:25,154 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 14:31:26,158 - desired_caps - INFO - 8200
+2020-07-18 14:32:30,863 - desired_caps - INFO - 连接appium服务器成功！！！！
+2020-07-18 14:33:30,880 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 14:33:30,884 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 14:33:30,889 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 14:33:30,893 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 14:33:30,953 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 14:33:30,954 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 14:33:35,955 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 14:33:36,957 - desired_caps - INFO - 8200
+2020-07-18 14:34:20,889 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\result
+2020-07-18 14:34:23,426 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 14:34:23,430 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 14:34:23,435 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 14:34:23,440 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 14:34:23,499 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 14:34:23,500 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 14:34:28,501 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 14:34:29,503 - desired_caps - INFO - 8200
+2020-07-18 14:34:40,294 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\result
+2020-07-18 14:34:44,534 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 14:34:44,543 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 14:34:44,552 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 14:34:44,559 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 14:34:44,687 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 14:34:46,696 - start_appium - INFO - port 4723 is not used
+2020-07-18 14:34:51,697 - start_appium - INFO - 启动cmd： appium -a 127.0.0.1 -p 4723 -bp 4724 -U 127.0.0.1:62001 --session-override
+2020-07-18 14:34:56,706 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 14:34:57,707 - desired_caps - INFO - 8200
+2020-07-18 14:35:10,829 - desired_caps - INFO - 连接appium服务器成功！！！！
+2020-07-18 14:35:17,248 - TestKeywords - INFO - 执行用例内容:{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}
+2020-07-18 14:35:19,270 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 14:35:20,406 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 14:35:20,446 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 14:35:22,010 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 14:35:36,582 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 14:35:36,588 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 14:35:36,595 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 14:35:36,601 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 14:35:36,683 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 14:35:38,685 - start_appium - INFO - port 4723 is not used
+2020-07-18 14:35:43,686 - start_appium - INFO - 启动cmd： appium -a 127.0.0.1 -p 4723 -bp 4724 -U 127.0.0.1:62001 --session-override
+2020-07-18 14:35:48,695 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 14:35:49,697 - desired_caps - INFO - 8200
+2020-07-18 14:36:02,875 - desired_caps - INFO - 连接appium服务器成功！！！！
+2020-07-18 14:36:09,272 - TestKeywords - INFO - 执行用例内容:{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}
+2020-07-18 14:36:11,304 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 14:36:11,345 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 14:36:12,473 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 14:36:14,054 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 14:36:14,592 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 14:36:15,643 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 14:36:16,181 - operate开始执行 - DEBUG - 该关键字是assert_toast_result
+2020-07-18 14:36:17,602 - Base_Page - INFO - 获取toast内容为：登录成功!
+2020-07-18 14:36:17,602 - Base_Page - INFO - toast_result结果为：True
+2020-07-18 14:36:22,964 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\result
+2020-07-18 14:36:27,034 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\html
+2020-07-18 14:36:36,628 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 14:36:36,649 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 14:36:36,671 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 14:36:36,693 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 14:36:36,804 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 14:36:36,805 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 14:36:41,805 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 14:36:42,809 - desired_caps - INFO - 8200
+2020-07-18 14:36:49,750 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\result
+2020-07-18 14:36:53,742 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\html
+2020-07-18 14:37:00,946 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 14:37:00,968 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 14:37:00,992 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 14:37:01,016 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 14:37:01,130 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 14:37:03,137 - start_appium - INFO - port 4723 is not used
+2020-07-18 14:37:08,139 - start_appium - INFO - 启动cmd： appium -a 127.0.0.1 -p 4723 -bp 4724 -U 127.0.0.1:62001 --session-override
+2020-07-18 14:37:13,155 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 14:37:14,160 - desired_caps - INFO - 8200
+2020-07-18 14:38:23,132 - desired_caps - INFO - 连接appium服务器成功！！！！
+2020-07-18 14:38:57,540 - TestKeywords - INFO - 执行用例内容:{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}
+2020-07-18 14:38:59,736 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 14:38:59,831 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 14:39:01,069 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 14:39:02,686 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 14:39:03,236 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 14:39:04,321 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 14:39:04,882 - operate开始执行 - DEBUG - 该关键字是assert_toast_result
+2020-07-18 14:39:06,321 - Base_Page - INFO - 获取toast内容为：登录成功!
+2020-07-18 14:39:06,323 - Base_Page - INFO - toast_result结果为：True
+2020-07-18 14:39:24,783 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 14:39:24,796 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 14:39:24,811 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 14:39:24,826 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 14:39:24,897 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 14:39:26,901 - start_appium - INFO - port 4723 is not used
+2020-07-18 14:39:31,903 - start_appium - INFO - 启动cmd： appium -a 127.0.0.1 -p 4723 -bp 4724 -U 127.0.0.1:62001 --session-override
+2020-07-18 14:39:36,920 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 14:40:32,131 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 14:40:32,144 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 14:40:32,157 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 14:40:32,169 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 14:40:32,237 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 14:40:34,239 - start_appium - INFO - port 4723 is not used
+2020-07-18 14:40:39,240 - start_appium - INFO - 启动cmd： appium -a 127.0.0.1 -p 4723 -bp 4724 -U 127.0.0.1:62001 --session-override
+2020-07-18 14:40:44,255 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 14:42:41,129 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 14:42:41,133 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 14:42:41,139 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 14:42:41,143 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 14:42:43,158 - start_appium - INFO - port 4723 is not used
+2020-07-18 14:42:46,281 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\result
+2020-07-18 14:42:50,711 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\html
+2020-07-18 14:42:54,571 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 14:42:54,578 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 14:42:54,587 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 14:42:54,595 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 14:42:56,618 - start_appium - INFO - port 4723 is not used
+2020-07-18 14:42:59,718 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\result
+2020-07-18 14:43:03,722 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\html
+2020-07-18 14:49:17,649 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 14:49:17,678 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 14:49:17,716 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 14:49:17,746 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 14:49:17,920 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 14:49:30,338 - start_appium - INFO - port 4723 is not used
+2020-07-18 14:49:35,344 - start_appium - INFO - 启动cmd： appium -a 127.0.0.1 -p 4723 -bp 4724 -U 127.0.0.1:62001 --session-override
+2020-07-18 14:49:42,980 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 14:49:45,727 - desired_caps - INFO - 8200
+2020-07-18 14:49:59,199 - desired_caps - INFO - 连接appium服务器成功！！！！
+2020-07-18 14:50:12,216 - TestKeywords - INFO - 执行用例内容:{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}
+2020-07-18 14:50:14,351 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 14:50:14,436 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 14:50:15,542 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 14:50:17,176 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 14:50:17,754 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 14:50:18,851 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 14:50:19,410 - operate开始执行 - DEBUG - 该关键字是assert_toast_result
+2020-07-18 14:50:20,847 - Base_Page - INFO - 获取toast内容为：登录成功!
+2020-07-18 14:50:20,847 - Base_Page - INFO - toast_result结果为：True
+2020-07-18 14:50:56,556 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 14:50:56,580 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 14:50:56,602 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 14:50:56,626 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 14:50:56,760 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 14:50:58,764 - start_appium - INFO - port 4723 is not used
+2020-07-18 14:51:03,766 - start_appium - INFO - 启动cmd： appium -a 127.0.0.1 -p 4723 -bp 4724 -U 127.0.0.1:62001 --session-override
+2020-07-18 14:51:08,789 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 14:51:09,816 - desired_caps - INFO - 8200
+2020-07-18 14:52:08,813 - desired_caps - INFO - 连接appium服务器成功！！！！
+2020-07-18 14:52:27,575 - TestKeywords - INFO - 执行用例内容:{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}
+2020-07-18 14:52:29,667 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 14:52:29,743 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 14:52:30,892 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 14:52:32,492 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 14:52:33,072 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 14:52:34,187 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 14:52:34,766 - operate开始执行 - DEBUG - 该关键字是assert_toast_result
+2020-07-18 14:52:36,327 - Base_Page - INFO - 获取toast内容为：登录成功!
+2020-07-18 14:52:36,327 - Base_Page - INFO - toast_result结果为：True
+2020-07-18 14:56:27,579 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 14:57:07,877 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 14:57:07,961 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 15:01:21,433 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 15:01:21,463 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 15:01:21,497 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 15:01:21,526 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 15:01:21,703 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 15:01:23,712 - start_appium - INFO - port 4723 is not used
+2020-07-18 15:01:28,718 - start_appium - INFO - 启动cmd： appium -a 127.0.0.1 -p 4723 -bp 4724 -U 127.0.0.1:62001 --session-override
+2020-07-18 15:01:36,746 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 15:01:37,752 - desired_caps - INFO - 8200
+2020-07-18 15:02:01,817 - desired_caps - INFO - 连接appium服务器成功！！！！
+2020-07-18 15:03:26,602 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 15:03:26,624 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 15:03:26,648 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 15:03:26,672 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 15:03:26,797 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 15:03:28,803 - start_appium - INFO - port 4723 is not used
+2020-07-18 15:03:33,804 - start_appium - INFO - 启动cmd： appium -a 127.0.0.1 -p 4723 -bp 4724 -U 127.0.0.1:62001 --session-override
+2020-07-18 15:03:41,825 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 15:03:42,833 - desired_caps - INFO - 8200
+2020-07-18 15:05:46,535 - desired_caps - INFO - 连接appium服务器成功！！！！
+2020-07-18 15:06:29,419 - TestKeywords - INFO - 执行用例内容:{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}
+2020-07-18 15:06:31,480 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 15:06:31,536 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 15:06:32,635 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 15:06:34,277 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 15:06:34,853 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 15:06:35,920 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 15:06:36,509 - operate开始执行 - DEBUG - 该关键字是assert_toast_result
+2020-07-18 15:06:38,082 - Base_Page - INFO - 获取toast内容为：登录成功!
+2020-07-18 15:06:38,083 - Base_Page - INFO - toast_result结果为：True
+2020-07-18 15:07:20,154 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 15:07:20,169 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 15:07:20,187 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 15:07:20,202 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 15:07:20,312 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 15:07:22,316 - start_appium - INFO - port 4723 is not used
+2020-07-18 15:07:27,317 - start_appium - INFO - 启动cmd： appium -a 127.0.0.1 -p 4723 -bp 4724 -U 127.0.0.1:62001 --session-override
+2020-07-18 15:07:35,322 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 15:07:36,323 - desired_caps - INFO - 8200
+2020-07-18 15:08:03,045 - desired_caps - INFO - 连接appium服务器成功！！！！
+2020-07-18 15:08:26,549 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 15:08:26,554 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 15:08:26,559 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 15:08:26,564 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 15:08:26,631 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 15:08:28,635 - start_appium - INFO - port 4723 is not used
+2020-07-18 15:08:33,636 - start_appium - INFO - 启动cmd： appium -a 127.0.0.1 -p 4723 -bp 4724 -U 127.0.0.1:62001 --session-override
+2020-07-18 15:08:41,648 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 15:08:42,649 - desired_caps - INFO - 8200
+2020-07-18 15:08:58,317 - desired_caps - INFO - 连接appium服务器成功！！！！
+2020-07-18 15:09:05,202 - TestKeywords - INFO - 执行用例内容:{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}
+2020-07-18 15:09:07,252 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 15:09:07,339 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 15:09:08,473 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 15:09:10,070 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 15:09:10,629 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 15:09:11,722 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 15:09:12,273 - operate开始执行 - DEBUG - 该关键字是assert_toast_result
+2020-07-18 15:09:13,687 - Base_Page - INFO - 获取toast内容为：登录成功!
+2020-07-18 15:09:13,688 - Base_Page - INFO - toast_result结果为：True
+2020-07-18 15:09:17,747 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\result
+2020-07-18 15:09:24,708 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\html
+2020-07-18 15:09:40,027 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 15:09:40,034 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 15:09:40,038 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 15:09:40,042 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 15:09:40,108 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 15:09:40,109 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 15:09:48,110 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 15:09:49,112 - desired_caps - INFO - 8200
+2020-07-18 15:09:55,583 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\result
+2020-07-18 15:09:59,525 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\html
+2020-07-18 15:10:45,761 - desired_caps - INFO - 8200
+2020-07-18 15:11:14,109 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 15:11:14,113 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 15:11:14,119 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 15:11:14,122 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 15:11:14,182 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 15:11:16,189 - start_appium - INFO - port 4723 is not used
+2020-07-18 15:11:21,191 - start_appium - INFO - 启动cmd： appium -a 127.0.0.1 -p 4723 -bp 4724 -U 127.0.0.1:62001 --session-override
+2020-07-18 15:11:29,201 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 15:11:30,202 - desired_caps - INFO - 8200
+2020-07-18 15:11:42,678 - desired_caps - INFO - 连接appium服务器成功！！！！
+2020-07-18 15:11:49,437 - TestKeywords - INFO - 执行用例内容:{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}
+2020-07-18 15:11:51,454 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 15:11:51,517 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 15:11:52,671 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 15:11:54,273 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 15:11:54,831 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 15:11:55,924 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 15:11:56,495 - operate开始执行 - DEBUG - 该关键字是assert_toast_result
+2020-07-18 15:11:58,071 - Base_Page - INFO - 获取toast内容为：登录成功!
+2020-07-18 15:11:58,072 - Base_Page - INFO - toast_result结果为：True
+2020-07-18 15:12:03,630 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\result
+2020-07-18 15:12:08,417 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\html
+2020-07-18 15:12:28,518 - desired_caps - INFO - 8200
+2020-07-18 15:14:10,554 - start_appium - INFO - port 4723 is not used
+2020-07-18 15:14:12,559 - start_appium - INFO - port 4723 is not used
+2020-07-18 15:14:12,560 - start_appium - INFO - 该端口未运行
+2020-07-18 15:14:12,645 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 15:14:50,417 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 15:14:50,427 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 15:14:50,432 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 15:14:50,437 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 15:14:50,498 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 15:14:52,506 - start_appium - INFO - port 4723 is not used
+2020-07-18 15:14:57,508 - start_appium - INFO - 启动cmd： appium -a 127.0.0.1 -p 4723 -bp 4724 -U 127.0.0.1:62001 --session-override
+2020-07-18 15:15:05,521 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 15:15:06,522 - desired_caps - INFO - 8200
+2020-07-18 15:15:18,601 - desired_caps - INFO - 连接appium服务器成功！！！！
+2020-07-18 15:15:25,822 - TestKeywords - INFO - 执行用例内容:{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}
+2020-07-18 15:15:27,876 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 15:15:27,941 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 15:15:29,111 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 15:15:30,723 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 15:15:31,267 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 15:15:32,357 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 15:15:32,905 - operate开始执行 - DEBUG - 该关键字是assert_toast_result
+2020-07-18 15:15:34,419 - Base_Page - INFO - 获取toast内容为：登录成功!
+2020-07-18 15:15:34,420 - Base_Page - INFO - toast_result结果为：True
+2020-07-18 15:15:40,075 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\result
+2020-07-18 15:15:45,747 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\html
+2020-07-18 15:16:27,583 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 15:16:27,600 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 15:16:27,618 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 15:16:27,635 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 15:16:27,745 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 15:16:27,745 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 15:16:35,746 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 15:16:36,750 - desired_caps - INFO - 8200
+2020-07-18 15:17:00,033 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\result
+2020-07-18 15:17:04,802 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\html
+2020-07-18 15:17:34,852 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 15:17:34,858 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 15:17:34,862 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 15:17:34,866 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 15:17:34,929 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 15:17:36,934 - start_appium - INFO - port 4723 is not used
+2020-07-18 15:17:41,935 - start_appium - INFO - 启动cmd： appium -a 127.0.0.1 -p 4723 -bp 4724 -U 127.0.0.1:62001 --session-override
+2020-07-18 15:17:49,942 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 15:17:50,944 - desired_caps - INFO - 8200
+2020-07-18 15:18:03,612 - desired_caps - INFO - 连接appium服务器成功！！！！
+2020-07-18 15:18:10,131 - TestKeywords - INFO - 执行用例内容:{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}
+2020-07-18 15:18:12,190 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 15:18:12,252 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 15:18:13,372 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 15:18:14,969 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 15:18:15,526 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 15:18:16,618 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 15:18:17,197 - operate开始执行 - DEBUG - 该关键字是assert_toast_result
+2020-07-18 15:18:18,699 - Base_Page - INFO - 获取toast内容为：登录成功!
+2020-07-18 15:18:18,699 - Base_Page - INFO - toast_result结果为：True
+2020-07-18 15:18:24,190 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\result
+2020-07-18 15:18:29,280 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\html
+2020-07-18 15:18:56,189 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 15:18:56,212 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 15:18:56,236 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 15:18:56,259 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 15:18:56,384 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 15:18:56,385 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 15:19:04,386 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 15:19:05,390 - desired_caps - INFO - 8200
+2020-07-18 15:19:30,028 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\result
+2020-07-18 15:19:34,614 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\html
+2020-07-18 15:22:08,237 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 15:22:08,250 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 15:22:08,263 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 15:22:08,276 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 15:22:08,349 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 15:22:10,353 - start_appium - INFO - port 4723 is not used
+2020-07-18 15:22:15,353 - start_appium - INFO - 启动cmd： appium -a 127.0.0.1 -p 4723 -bp 4724 -U 127.0.0.1:62001 --session-override
+2020-07-18 15:22:23,376 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 15:22:24,378 - desired_caps - INFO - 8200
+2020-07-18 15:22:37,376 - desired_caps - INFO - 连接appium服务器成功！！！！
+2020-07-18 15:23:52,294 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 15:23:52,298 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 15:23:52,304 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 15:23:52,308 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 15:25:27,326 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 15:25:27,339 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 15:25:27,353 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 15:25:27,366 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 15:25:27,443 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 15:25:29,461 - start_appium - INFO - port 4723 is not used
+2020-07-18 15:25:34,463 - start_appium - INFO - 启动cmd： appium -a 127.0.0.1 -p 4723 -bp 4724 -U 127.0.0.1:62001 --session-override
+2020-07-18 15:25:42,490 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 15:25:43,492 - desired_caps - INFO - 8200
+2020-07-18 15:25:58,505 - desired_caps - INFO - 连接appium服务器成功！！！！
+2020-07-18 15:27:23,175 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 15:27:23,178 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 15:27:23,184 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 15:27:23,188 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 15:27:23,252 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 15:27:25,256 - start_appium - INFO - port 4723 is not used
+2020-07-18 15:27:30,258 - start_appium - INFO - 启动cmd： appium -a 127.0.0.1 -p 4723 -bp 4724 -U 127.0.0.1:62001 --session-override
+2020-07-18 15:27:38,262 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 15:27:39,262 - desired_caps - INFO - 8200
+2020-07-18 15:27:54,604 - desired_caps - INFO - 连接appium服务器成功！！！！
+2020-07-18 15:27:54,629 - TestKeywords - INFO - 执行用例内容:{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}
+2020-07-18 15:27:56,681 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 15:27:56,754 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 15:27:57,870 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 15:27:59,431 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 15:28:00,491 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 15:28:01,555 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 15:28:02,121 - operate开始执行 - DEBUG - 该关键字是assert_toast_result
+2020-07-18 15:28:03,771 - Base_Page - INFO - 获取toast内容为：登录成功!
+2020-07-18 15:28:03,771 - Base_Page - INFO - toast_result结果为：True
+2020-07-18 15:28:09,282 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\result
+2020-07-18 15:28:14,524 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\html
+2020-07-18 15:37:18,786 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 15:37:18,789 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 15:37:18,796 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 15:37:18,799 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 15:37:18,868 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001']
+2020-07-18 15:37:18,869 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 15:37:26,869 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 15:37:27,870 - desired_caps - INFO - 8200
+2020-07-18 15:37:34,310 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\result
+2020-07-18 15:37:37,534 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\html
+2020-07-18 18:10:51,332 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 18:10:51,334 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 18:10:51,348 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 18:10:51,348 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 18:10:51,360 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 18:10:51,364 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 18:10:51,371 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 18:10:51,373 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 18:10:51,805 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001', '127.0.0.1:62025']
+2020-07-18 18:10:53,810 - start_appium - INFO - port 4725 is not used
+2020-07-18 18:10:53,812 - start_appium - INFO - port 4723 is not used
+2020-07-18 18:10:58,811 - start_appium - INFO - 启动cmd： appium -a 127.0.0.1 -p 4725 -bp 4726 -U 127.0.0.1:62025 --session-override
+2020-07-18 18:10:58,813 - start_appium - INFO - 启动cmd： appium -a 127.0.0.1 -p 4723 -bp 4724 -U 127.0.0.1:62001 --session-override
+2020-07-18 18:11:06,824 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 18:11:06,826 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 18:11:07,824 - desired_caps - INFO - 8201
+2020-07-18 18:11:07,826 - desired_caps - INFO - 8200
+2020-07-18 18:11:29,256 - desired_caps - INFO - 连接appium服务器成功！！！！
+2020-07-18 18:11:29,286 - TestKeywords - INFO - 执行用例内容:{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}
+2020-07-18 18:11:31,325 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 18:11:32,230 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 18:11:32,919 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 18:11:34,499 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 18:11:35,050 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 18:11:36,166 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 18:11:36,720 - operate开始执行 - DEBUG - 该关键字是assert_toast_result
+2020-07-18 18:11:38,466 - Base_Page - INFO - 获取toast内容为：登录成功!
+2020-07-18 18:11:38,466 - Base_Page - INFO - toast_result结果为：True
+2020-07-18 18:11:44,493 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\result\华为mate9
+2020-07-18 18:11:44,696 - desired_caps - INFO - 连接appium服务器成功！！！！
+2020-07-18 18:11:44,741 - TestKeywords - INFO - 执行用例内容:{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}
+2020-07-18 18:11:46,762 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 18:11:46,898 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 18:11:48,124 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 18:11:49,743 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 18:11:50,333 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 18:11:51,454 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 18:11:52,028 - operate开始执行 - DEBUG - 该关键字是assert_toast_result
+2020-07-18 18:11:55,611 - Base_Page - ERROR - toast获取失败，错误信息：Message: The element 'By.xpath: //*[contains(@text,'登录成功')]' does not exist in DOM anymore
+
+2020-07-18 18:11:55,612 - Base_Page - INFO - toast_result结果为：False
+2020-07-18 18:11:57,035 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\html\华为mate9
+2020-07-18 18:12:01,164 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\result\华为mate10
+2020-07-18 18:12:08,292 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\html\华为mate10
+2020-07-18 18:19:19,028 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 18:19:19,029 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 18:19:19,033 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 18:19:19,033 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 18:19:19,037 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 18:19:19,038 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 18:19:19,041 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 18:19:19,042 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 18:19:19,269 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001', '127.0.0.1:62025']
+2020-07-18 18:19:19,271 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 18:19:19,271 - start_appium - INFO - 端口检查：  port 4725 is used!
+2020-07-18 18:19:27,272 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 18:19:27,272 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 18:19:28,273 - desired_caps - INFO - 8200
+2020-07-18 18:19:31,858 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\result\华为mate10
+2020-07-18 18:19:31,860 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\result\华为mate9
+2020-07-18 18:19:38,452 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\html\华为mate9
+2020-07-18 18:19:38,452 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\html\华为mate10
+2020-07-18 18:19:44,733 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 18:19:44,742 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 18:19:44,750 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 18:19:44,751 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 18:19:44,757 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 18:19:44,759 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 18:19:44,765 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 18:19:44,774 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 18:19:44,891 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001', '127.0.0.1:62025']
+2020-07-18 18:19:44,903 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001', '127.0.0.1:62025']
+2020-07-18 18:19:46,898 - start_appium - INFO - port 4723 is not used
+2020-07-18 18:19:46,908 - start_appium - INFO - port 4725 is not used
+2020-07-18 18:19:51,899 - start_appium - INFO - 启动cmd： appium -a 127.0.0.1 -p 4723 -bp 4724 -U 127.0.0.1:62001 --session-override
+2020-07-18 18:19:51,909 - start_appium - INFO - 启动cmd： appium -a 127.0.0.1 -p 4725 -bp 4726 -U 127.0.0.1:62025 --session-override
+2020-07-18 18:19:59,910 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 18:19:59,920 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 18:20:00,911 - desired_caps - INFO - 8200
+2020-07-18 18:20:00,921 - desired_caps - INFO - 8201
+2020-07-18 18:20:18,792 - desired_caps - INFO - 连接appium服务器成功！！！！
+2020-07-18 18:20:18,813 - TestKeywords - INFO - 执行用例内容:{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}
+2020-07-18 18:20:20,840 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 18:20:20,952 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 18:20:22,153 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 18:20:23,804 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 18:20:23,881 - desired_caps - INFO - 连接appium服务器成功！！！！
+2020-07-18 18:20:23,911 - TestKeywords - INFO - 执行用例内容:{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}
+2020-07-18 18:20:24,396 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 18:20:25,472 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 18:20:25,949 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 18:20:26,028 - operate开始执行 - DEBUG - 该关键字是assert_toast_result
+2020-07-18 18:20:26,081 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 18:20:27,258 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 18:20:27,767 - Base_Page - INFO - 获取toast内容为：登录成功!
+2020-07-18 18:20:27,767 - Base_Page - INFO - toast_result结果为：True
+2020-07-18 18:20:28,863 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 18:20:29,421 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 18:20:30,473 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 18:20:30,747 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\result\华为mate9
+2020-07-18 18:20:31,022 - operate开始执行 - DEBUG - 该关键字是assert_toast_result
+2020-07-18 18:20:33,095 - Base_Page - INFO - 获取toast内容为：登录成功!
+2020-07-18 18:20:33,096 - Base_Page - INFO - toast_result结果为：True
+2020-07-18 18:20:37,709 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\result\华为mate10
+2020-07-18 18:20:38,025 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\html\华为mate9
+2020-07-18 18:20:43,988 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\html\华为mate10
+2020-07-18 18:26:26,630 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 18:26:26,635 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 18:26:26,640 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 18:26:26,643 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 18:26:26,709 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001', '127.0.0.1:62025']
+2020-07-18 18:26:26,710 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 18:26:34,711 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 18:26:35,711 - desired_caps - INFO - 8200
+2020-07-18 18:26:42,152 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\result
+2020-07-18 18:26:46,864 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\html
+2020-07-18 18:26:58,898 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 18:26:58,902 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 18:26:58,908 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 18:26:58,912 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 18:26:58,969 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001', '127.0.0.1:62025']
+2020-07-18 18:27:00,973 - start_appium - INFO - port 4723 is not used
+2020-07-18 18:27:05,975 - start_appium - INFO - 启动cmd： appium -a 127.0.0.1 -p 4723 -bp 4724 -U 127.0.0.1:62001 --session-override
+2020-07-18 18:27:13,981 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 18:27:14,982 - desired_caps - INFO - 8200
+2020-07-18 18:27:27,785 - desired_caps - INFO - 连接appium服务器成功！！！！
+2020-07-18 18:27:27,805 - TestKeywords - INFO - 执行用例内容:{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}
+2020-07-18 18:27:29,815 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 18:27:30,947 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 18:27:31,046 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 18:27:32,640 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 18:27:33,173 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 18:27:34,253 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 18:27:34,802 - operate开始执行 - DEBUG - 该关键字是assert_toast_result
+2020-07-18 18:27:36,217 - Base_Page - INFO - 获取toast内容为：登录成功!
+2020-07-18 18:27:36,217 - Base_Page - INFO - toast_result结果为：True
+2020-07-18 18:27:36,218 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 18:27:41,734 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\result
+2020-07-18 18:27:46,227 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\html
+2020-07-18 18:29:16,533 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 18:29:16,537 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 18:29:16,543 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 18:29:16,547 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 18:29:16,604 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001', '127.0.0.1:62025']
+2020-07-18 18:29:16,605 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 18:29:24,606 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 18:29:25,607 - desired_caps - INFO - 8200
+2020-07-18 18:29:33,633 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 18:29:33,637 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 18:29:33,642 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 18:29:33,646 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 18:29:33,701 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001', '127.0.0.1:62025']
+2020-07-18 18:29:35,706 - start_appium - INFO - port 4723 is not used
+2020-07-18 18:29:40,708 - start_appium - INFO - 启动cmd： appium -a 127.0.0.1 -p 4723 -bp 4724 -U 127.0.0.1:62001 --session-override
+2020-07-18 18:29:48,714 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 18:29:49,716 - desired_caps - INFO - 8200
+2020-07-18 18:30:00,266 - desired_caps - INFO - 连接appium服务器成功！！！！
+2020-07-18 18:30:00,276 - TestKeywords - INFO - 执行用例内容:{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}
+2020-07-18 18:30:02,301 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 18:30:02,345 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 18:30:03,446 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 18:30:05,079 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 18:30:05,639 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 18:30:06,714 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 18:30:07,280 - operate开始执行 - DEBUG - 该关键字是assert_toast_result
+2020-07-18 18:30:08,967 - Base_Page - INFO - 获取toast内容为：登录成功!
+2020-07-18 18:30:08,967 - Base_Page - INFO - toast_result结果为：True
+2020-07-18 18:30:08,968 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 18:30:14,728 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\result
+2020-07-18 18:30:28,174 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 18:30:28,179 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 18:30:28,184 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}]
+2020-07-18 18:30:28,189 - C:\myDev\PeiYou_AutoTest\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}]
+2020-07-18 18:30:28,252 - start_appium - INFO - 获取的devices信息udid:['127.0.0.1:62001', '127.0.0.1:62025']
+2020-07-18 18:30:30,259 - start_appium - INFO - port 4723 is not used
+2020-07-18 18:30:35,261 - start_appium - INFO - 启动cmd： appium -a 127.0.0.1 -p 4723 -bp 4724 -U 127.0.0.1:62001 --session-override
+2020-07-18 18:30:43,271 - start_appium - INFO - 端口检查：  port 4723 is used!
+2020-07-18 18:30:44,273 - desired_caps - INFO - 8200
+2020-07-18 18:30:56,664 - desired_caps - INFO - 连接appium服务器成功！！！！
+2020-07-18 18:30:56,685 - TestKeywords - INFO - 执行用例内容:{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录成功01', '测试数据': 'username=14000000001,password=000001', '期望结果': '登录成功', '备注': '登录功能测试', '描述': '登录功能测试'}
+2020-07-18 18:30:58,714 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 18:30:58,758 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 18:30:59,872 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 18:31:01,514 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 18:31:02,062 - operate开始执行 - DEBUG - 该关键字是send_keys
+2020-07-18 18:31:03,115 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 18:31:03,681 - operate开始执行 - DEBUG - 该关键字是assert_toast_result
+2020-07-18 18:31:05,261 - Base_Page - INFO - 获取toast内容为：登录成功!
+2020-07-18 18:31:05,261 - Base_Page - INFO - toast_result结果为：True
+2020-07-18 18:31:05,262 - operate开始执行 - DEBUG - 该关键字是click_btn
+2020-07-18 18:31:10,896 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\result
+2020-07-18 18:31:16,843 - allure_generate - INFO - 报告地址C:\myDev\PeiYou_AutoTest\report\html
