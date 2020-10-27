@@ -13,7 +13,7 @@ bcrypt==3.1.7
 certifi==2019.3.9
 cffi==1.12.3
 chardet==3.0.4
-cryptography==2.7
+cryptography==3.2
 ddt==1.2.1
 decorator==4.4.0
 deepdiff==4.0.7
